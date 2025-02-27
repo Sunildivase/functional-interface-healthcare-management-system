@@ -1,4 +1,8 @@
 package com.functionalInterfaceHealthcare.model;
 
-public interface Billing {
+public class Billing {
+    private int billId;
+    private int bill;
+    private int totalBill;
+    private int personId;
 }
