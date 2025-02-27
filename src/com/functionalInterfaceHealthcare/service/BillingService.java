@@ -1,4 +1,9 @@
 package com.functionalInterfaceHealthcare.service;
 
-public class BillingService {
+@FunctionalInterface
+public interface BillingService {
+
+    // only one method implement cause of functional interface.
+   int payment(int bill,int totalBill);
 }
+
