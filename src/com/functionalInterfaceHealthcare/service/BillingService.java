@@ -1,5 +1,7 @@
 package com.functionalInterfaceHealthcare.service;
 
+import com.functionalInterfaceHealthcare.model.Billing;
+
 @FunctionalInterface
 public interface BillingService {
 

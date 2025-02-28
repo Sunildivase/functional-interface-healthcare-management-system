@@ -72,4 +72,8 @@ public class Hospital {
     public int hashCode() {
         return Objects.hash(getHospitalId(), getHospitalName(), getHospitalAddress(), getContactNo(), getEmailId());
     }
+
+    public void setAddress(String address) {
+
+    }
 }
